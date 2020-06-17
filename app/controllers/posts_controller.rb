@@ -31,4 +31,8 @@ end
 
 
 
-#
+#require is more restrictive 
+
+#require means that params that get passed from the uer MUST contain a key called post. Otherwise it fails and the user gets an error. 
+
+#permit is looser. It means that params hash may have whatever keys are in it. 
